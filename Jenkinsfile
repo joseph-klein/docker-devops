@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "jfklein/trial"
+    registry = "fjklein/trial"
     registryCredential = 'dockerhubcred'
   }
   agent any
